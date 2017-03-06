@@ -13,7 +13,7 @@ To use this runner for your project, edit the `codingame.yml` file and add the f
 
     runner:
       name: codingame/dotnet-runner
-      version: 1.0-1.1-sdk-msbuild
+      version: 1.0.0-dotnet-1.1-sdk-msbuild
 
 ## Example
 
