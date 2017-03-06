@@ -4,7 +4,7 @@ This standalone runner works with a .Net Core C#/F# Test Project (MSTest/xUnit).
 
 First, this runner installs all dependencies using `dotnet restore`.
 
-Each play, it copies user's answer and run the project using `dotnet test` and the specified testcase `--filter "FullyQualifiedName=$@"`. 
+At each play, it copies the user's answer and runs the project using `dotnet test` and the specified testcase `--filter "FullyQualifiedName=$@"`. 
 
 
 # How to Use
@@ -18,6 +18,7 @@ To use this runner for your project, edit the `codingame.yml` file and add the f
 ## Example
 
 **A Git repository example**
+
 ```
 .
 ├── about.md
