@@ -11,9 +11,7 @@ At each play, it copies the user's answer and runs the project using `dotnet tes
 
 To use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
 
-    runner:
-      name: codingame/dotnet-runner
-      version: 1.1.0-dotnet-1.1-sdk-msbuild
+    runner: techio/dotnet-runner:1.1.0-dotnet-1.1-sdk-msbuild
 
 ## Example
 
