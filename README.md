@@ -9,7 +9,7 @@ At each play, it copies the user's answer and runs the project using `dotnet tes
 
 # How to Use
 
-To use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
+To use this runner for your project, edit the `techio.yml` file and add the following lines to your project:
 
     runner: techio/dotnet-runner:1.1.0-dotnet-1.1-sdk-msbuild
 
@@ -20,7 +20,7 @@ To use this runner for your project, edit the `codingame.yml` file and add the f
 ```
 .
 ├── about.md
-├── codingame.yml
+├── techio.yml
 ├── markdowns
 │   └── <YOUR_LESSONS>.md
 └── projects
