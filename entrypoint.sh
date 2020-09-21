@@ -2,4 +2,4 @@
 
 cd /project/target
 
-dotnet test --filter "FullyQualifiedName=$@" --verbosity="quiet"
+dotnet test --verbosity="quiet"
